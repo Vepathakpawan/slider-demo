@@ -1,0 +1,49 @@
+.header{
+    display: flex;
+    flex: 0 0 100%;
+    width: 100%;
+    padding: 20px 20px;
+
+.logo{
+    width: 12.5%;
+    flex: 0  0 12.5%;
+   text-align: left;
+   font-size: 30px;
+   color: #fff;
+   letter-spacing: 1px;
+   line-height: 29px;
+   font-weight: 500;
+   padding-top: 20px;
+   border-top: 2px solid rgb(55,208,222);
+ 
+   
+}
+.header-menu{
+    display: flex;
+    margin-left: 150px;
+    flex: auto;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex: 0 0 80%;
+    text-align: left;
+    
+
+}
+    li{
+      list-style-type: none;
+      font-size: 12px;
+      line-height: 15px;
+      letter-spacing: 2px;
+      border-top: 2px solid rgb(55,208,222);
+      padding-top: 10px;
+      width: 20%;
+      flex: 0 0 20%;
+    }
+    a{
+        color: rgb(55,208,222);
+        text-decoration: none;
+    }
+}

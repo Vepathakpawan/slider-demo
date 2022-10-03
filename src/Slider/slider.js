@@ -7,7 +7,8 @@ import WaveOne from "../Assets/Images/wave-mid.png";
 import WaveTow from "../Assets/Images/wave-top.png";
 import WaveThree from "../Assets/Images/wave-mid.png";
 import WaveFour from "../Assets/Images/wave-top.png";
-
+import LeftArrow from "../Assets/Images/left-arrow.png";
+import RightArrow from "../Assets/Images/right-arrow.png";
 function SampleNextArrow(props) {
     const { className, style, onClick } = props;
     return (
@@ -63,11 +64,11 @@ function SliderSection() {
                     <div className="col right-col slick-carousel">
                     <div className="slick-arrow">
                             <button className="slick-prev">
-                                    {/* < FaArrowLeft /> */}
+                            <img src={LeftArrow} alt="arrow-left" className="arrow"/>
                 
                             </button>
                             <button className="slick-next">
-                            {/* < FaArrowRight /> */}
+                            <img src={RightArrow} alt="right-left" className="arrow" />
                            </button>
 
                     </div>

@@ -190,11 +190,7 @@
   border: 1px solid rgb(55, 208, 222);
   border-radius: 50px;
   z-index: 999;
-}
-.slider-section .slick-next svg {
-  fill: rgb(55, 208, 222);
-  vertical-align: middle;
-  margin-top: -3px;
+  cursor: pointer;
 }
 .slider-section .slick-prev {
   position: absolute;
@@ -207,9 +203,11 @@
   border: 1px solid rgb(55, 208, 222);
   border-radius: 50px;
   z-index: 999;
+  cursor: pointer;
 }
-.slider-section .slick-prev svg {
-  fill: rgb(55, 208, 222);
+.slider-section .arrow {
+  width: 20px;
+  cursor: pointer;
 }
 
 @media (max-width: 768px) {
@@ -263,7 +261,7 @@
     display: block;
     margin-bottom: 6px;
     height: 2px;
-    background-color: rgb(55, 208, 222);
+    background-color: #37d0de;
   }
   .header .navigation-menu.expanded {
     display: block;
@@ -299,9 +297,6 @@
     bottom: 50px;
     width: 25px;
     height: 25px;
-  }
-  .slider-section svg {
-    width: 10px;
   }
   .slider-section .right-col {
     display: -webkit-box;

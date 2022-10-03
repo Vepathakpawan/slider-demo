@@ -234,9 +234,9 @@ function SliderSection() {
                 <div className="wave-animation">
                    <div className="animation">
                      
-                     <img src={WaveOne} className="wave wave-1" />
-                     <img src={WaveTow} className="wave wave-2" />
-                     <img src={WaveThree} className="wave wave-3" />
+                     <img src={WaveOne} className="wave wave-1" alt="waveimg" />
+                     <img src={WaveTow} className="wave wave-2" alt="waveimg"  />
+                     <img src={WaveThree} className="wave wave-3" alt="waveimg "/>
                  
                    </div>
                 </div>

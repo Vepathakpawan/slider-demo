@@ -214,7 +214,7 @@
 
 @media (max-width: 768px) {
   .container.mobile-container {
-    width: 90%;
+    width: 70%;
     max-height: 100%;
   }
 
@@ -392,5 +392,11 @@
 @media (min-width: 768px) {
   .toggle, .close {
     display: none;
+  }
+}
+@media (max-width: 480px) {
+  .container.mobile-container {
+    width: 90%;
+    max-height: 100%;
   }
 }

@@ -56,37 +56,35 @@ span{
   position: absolute;
   width: 100%;
   bottom:-45px;
-  height: 80px;
+  height: 90px;
   .wave{
   position: absolute;
-  height: 60px;
+  height: 80px;
   width: 200%;
   bottom: 0px;
-  animation: wave 10s -3s linear infinite;
-  transform: translate3d(0, 0, 0) ;
   opacity: 0.2;
 }
   }
   .wave-1{
-    height: 40px;
+    height: 80px;
     position: absolute;
     bottom: -50px;
     animation: wave 0s reverse infinite;
     opacity: 0.5;
   }
   .wave-2{
-    height: 60px;
+    height: 80px;
     position: absolute;
     bottom: -50px;
-  animation: wave 20s -1s linear infinite;
+  animation: wave 5s -1s linear infinite;
   opacity: 0.5;
   }
   .wave-3{
-    height: 60px;
+    height: 90px;
     position: absolute;
     opacity: 0.2;
     bottom: -50px;
-  animation: wave 10s -1s reverse infinite;
+  animation: wave 7s -10s reverse infinite;
   opacity: 0.5;
   }
 

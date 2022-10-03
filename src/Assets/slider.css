@@ -298,6 +298,10 @@
     width: 25px;
     height: 25px;
   }
+  .slider-section .arrow {
+    width: 15px;
+    vertical-align: middle;
+  }
   .slider-section .right-col {
     display: -webkit-box;
     display: -ms-flexbox;

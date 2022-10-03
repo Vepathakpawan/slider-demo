@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import Header from "../header/header.js";
 import Slider from "react-slick";
-import { FaArrowRight } from "react-icons/fa";
-import { FaArrowLeft } from "react-icons/fa";
+// import { FaArrowRight } from "react-icons/fa";
+// import { FaArrowLeft } from "react-icons/fa";
 import WaveOne from "../Assets/Images/wave-mid.png";
 import WaveTow from "../Assets/Images/wave-top.png";
 import WaveThree from "../Assets/Images/wave-mid.png";
@@ -63,11 +63,11 @@ function SliderSection() {
                     <div className="col right-col slick-carousel">
                     <div className="slick-arrow">
                             <button className="slick-prev">
-                                    < FaArrowLeft />
+                                    {/* < FaArrowLeft /> */}
                 
                             </button>
                             <button className="slick-next">
-                            < FaArrowRight />
+                            {/* < FaArrowRight /> */}
                            </button>
 
                     </div>
